@@ -1,0 +1,72 @@
+#cgpah1 {
+    position: sticky;
+    top: 5px;
+    background-color: rgb(227, 227, 227);
+    padding: 5px;
+    width: 150px;
+    margin-left: 10%;
+    border-radius: 5px;
+}
+
+#tables {
+    max-width: 850px;
+    margin: auto;
+}
+
+table {
+    border-collapse: collapse;
+    padding: 10px;
+    width: 100%;
+    margin: auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgba(195, 195, 195, 0.761);
+}
+tr:nth-child(odd) {
+    background-color: rgba(235, 234, 234, 0.451);
+}
+
+tr:hover {
+    background-color: rgba(176, 188, 185, 0.215);  
+}
+
+.aligncolcenter {
+    text-align: center;
+}
+
+select {
+    margin: 5px;
+}
+
+.calcBtn {
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+#downloadBtn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    font-size: large;
+    border: 0;
+    border-radius: 5px;
+    margin: auto;
+}
+
+hr{
+    max-width: 850px;
+}
+
+.calcbutncontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
