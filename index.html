@@ -7,12 +7,17 @@
     <title>KTU CGPA Calculator</title>
 </head>
 <body>  
-    <h2 id="cgpah1">CGPA | 0.00</h2>
-    <input type="file" id="acceptData" accept=".json">
+    <h1>KTU CGPA Calculator</h1>
+    <p>For the cyber people.</p>
+    <div class="topButtons">
+        <input type="file" id="acceptData" accept=".json">
+        <label for="acceptData" class="fileInputLabel">Load Data from file</label>
+        <button id="downloadBtn" onclick="downloadData()">Download JSON Data</button>
+   </div>
+    <h2 id="cgpah1">CGPA: 0.00</h2>
     <div id="tables"></div>
     <hr><br><br>
-    <button id="downloadBtn" onclick="downloadData()">Download JSON Data</button>
-    <br><br>
+    <footer>2026 · <a href="https://github.com/BirdMan58"> BirdMan58 </a></footer>
 </body>
 <script src="script.js"></script>
 </html>

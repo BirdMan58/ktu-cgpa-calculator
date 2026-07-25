@@ -1,16 +1,50 @@
-#cgpah1 {
-    position: sticky;
-    top: 5px;
-    background-color: rgb(227, 227, 227);
-    padding: 5px;
-    width: 150px;
-    margin-left: 10%;
-    border-radius: 5px;
-}
-
-#tables {
+body {
     max-width: 850px;
     margin: auto;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.topButtons {
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.fileInputLabel {
+    padding: 10px;
+    font-size: small;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#downloadBtn {
+    display: block;
+    padding: 10px;
+    font-size: small;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(230, 230, 230);
+    font-weight: bold;
+}
+
+#cgpah1 {
+    position: sticky;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-bottom: solid 2px black;
+}
+
+#acceptData {
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 table {
@@ -44,20 +78,10 @@ select {
 }
 
 .calcBtn {
-    padding: 5px 8px;
-    border: 0;
-    border-radius: 5px;
-    font-size: medium;
-}
-
-#downloadBtn {
-    display: block;
-    width: 200px;
     padding: 10px;
-    font-size: large;
     border: 0;
     border-radius: 5px;
-    margin: auto;
+    font-size: large;
 }
 
 hr{
@@ -69,4 +93,19 @@ hr{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+a {
+    color: black;
+}
+
+@media screen and (max-width: 764px) {
+    body {
+        margin: 10px;
+    }
 }

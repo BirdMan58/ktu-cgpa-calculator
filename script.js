@@ -144,7 +144,7 @@ function printSubjects() {
 
     for (const [i, sem] of sems.entries()) {
         content += `
-            <h1>Semester ${i+1}</h1>
+            <h1 id="semHeader${i}">Semester ${i+1}</h1>
             <table>
                 <tr>
                     <th>Sl.no</th>
@@ -179,14 +179,17 @@ function printSubjects() {
                 </table>
                 <br>
                 <div class="calcbutncontainer">
+                <h2 id="sgpa${i}">SGPA 0.00</h2>
                 <button class="calcBtn" onclick="calcSGPA(${i})" >Calculate</button>
-                <h2 id="sgpa${i}">0.00</h2>
                 </div>`;
     }
     document.getElementById("tables").innerHTML = content;
 
     for(let i = 0; i < sems.length; i++) {
         calcSGPA(i);
+        if(sems[i].isPending) {
+            document.getElementById(`semHeader${i}`).textContent = `Semester ${i+1} (pending)`;
+        }
     }
 }
 
@@ -197,8 +200,9 @@ function calcSGPA(index) {
     for(let i = 0; i < sems[index].subs.length; i++) {
         userGrade = document.getElementById(`sub${index}${i}`).value;
 
-        if(userGrade == "nill") {
-            document.getElementById(`sub${index}${i}`).value == "F"
+        if(userGrade != "nill") {
+            sems[index].isPending = false;
+            document.getElementById(`semHeader${index}`).textContent = `Semester ${index+1}`;
         }
 
         sems[index].subs[i].grade = userGrade;        
@@ -207,14 +211,34 @@ function calcSGPA(index) {
     }
     let sgpa = earnedCredits / totalCredits;
 
-    document.getElementById(`sgpa${index}`).textContent = sgpa.toFixed(2);
+    document.getElementById(`sgpa${index}`).textContent = `SGPA: ${sgpa.toFixed(2)}`;
    
-    // calcCGPA();
+    calcCGPA();
 }
 
-// function calcCGPA() {
+function calcCGPA() {
+    let totalCredits = 0;
+    let earnedCredits = 0;
 
-// }
+    for(let index = 0; index < sems.length; index++) {
+        if(sems[index].isPending) {
+            continue;
+        }
+
+        for(let i = 0; i < sems[index].subs.length; i++) {
+            userGrade = document.getElementById(`sub${index}${i}`).value;
+
+            sems[index].subs[i].grade = userGrade;        
+            earnedCredits += GradePoints[userGrade] * sems[index].subs[i].credit;
+            totalCredits += sems[index].subs[i].credit;
+        }
+    }
+    console.log(earnedCredits, totalCredits);
+    
+    let cgpa = (totalCredits != 0) ? earnedCredits / totalCredits : 0;
+
+    document.getElementById("cgpah1").textContent = `CGPA: ${cgpa.toFixed(2)}`;
+}
 
 function downloadData() {
     const json = JSON.stringify(sems, null, 2);
