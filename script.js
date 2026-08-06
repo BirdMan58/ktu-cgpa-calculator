@@ -1,121 +1,14 @@
-sems = [
-        // Semester 1
-        {
-            isPending: true,
-            subs: [
-                { title: "LINEAR ALGEBRA AND CALCULUS", credit: 4, grade: "nill" },
-                { title: "ENGINEERING PHYSICS A / ENGINEERING CHEMISTRY", credit: 4, grade: "nill" },
-                { title: "ENGINEERING MECHANICS / ENGINEERING GRAPHICS", credit: 3, grade: "nill" },
-                { title: "BASICS OF CIVIL & MECHANICAL ENGINEERING / BASICS OF ELECTRICAL & ELECTRONICS ENGINEERING", credit: 4, grade: "nill" },
-                { title: "LIFE SKILLS", credit: 0, grade: "nill" },
-                { title: "ENGINEERING PHYSICS LAB / ENGINEERING CHEMISTRY LAB", credit: 1, grade: "nill" },
-                { title: "CIVIL & MECHANICAL WORKSHOP / ELECTRICAL & ELECTRONICS WORKSHOP", credit: 1, grade: "nill" }
-            ]
-        },
+sems = [];
 
-        // Semester 2
-        {
-            isPending: true,
-            subs: [
-                { title: "VECTOR CALCULUS, DIFFERENTIAL EQUATIONS AND TRANSFORMS", credit: 4, grade: "nill" },
-                { title: "ENGINEERING PHYSICS A / ENGINEERING CHEMISTRY", credit: 4, grade: "nill" },
-                { title: "ENGINEERING MECHANICS / ENGINEERING GRAPHICS", credit: 3, grade: "nill" },
-                { title: "BASICS OF CIVIL & MECHANICAL ENGINEERING / BASICS OF ELECTRICAL & ELECTRONICS ENGINEERING", credit: 4, grade: "nill" },
-                { title: "PROFESSIONAL COMMUNICATION", credit: 0, grade: "nill" },
-                { title: "PROGRAMMING IN C", credit: 4, grade: "nill" },
-                { title: "ENGINEERING PHYSICS LAB / ENGINEERING CHEMISTRY LAB", credit: 1, grade: "nill" },
-                { title: "CIVIL & MECHANICAL WORKSHOP / ELECTRICAL & ELECTRONICS WORKSHOP", credit: 1, grade: "nill" }
-            ]
-        },
-
-        // Semester 3
-        {
-            isPending: true,
-            subs: [
-                { title: "DISCRETE MATHEMATICAL STRUCTURES", credit: 4, grade: "nill" },
-                { title: "DATA STRUCTURES", credit: 4, grade: "nill" },
-                { title: "LOGIC SYSTEM DESIGN", credit: 4, grade: "nill" },
-                { title: "OBJECT ORIENTED PROGRAMMING USING JAVA", credit: 4, grade: "nill" },
-                { title: "DESIGN & ENGINEERING / PROFESSIONAL ETHICS", credit: 2, grade: "nill" },
-                { title: "SUSTAINABLE ENGINEERING", credit: 0, grade: "nill" },
-                { title: "DATA STRUCTURES LAB", credit: 2, grade: "nill" },
-                { title: "OBJECT ORIENTED PROGRAMMING LAB (IN JAVA)", credit: 2, grade: "nill" }
-            ]
-        },
-
-        // Semester 4
-        {
-            isPending: true,
-            subs: [
-                { title: "MATHEMATICAL FOUNDATIONS FOR SECURITY SYSTEMS", credit: 4, grade: "nill" },
-                { title: "COMPUTER ORGANISATION AND ARCHITECTURE", credit: 4, grade: "nill" },
-                { title: "DATABASE MANAGEMENT SYSTEMS", credit: 4, grade: "nill" },
-                { title: "OPERATING SYSTEMS", credit: 4, grade: "nill" },
-                { title: "DESIGN & ENGINEERING / PROFESSIONAL ETHICS", credit: 2, grade: "nill" },
-                { title: "CONSTITUTION OF INDIA", credit: 0, grade: "nill" },
-                { title: "SCRIPTING LANGUAGES FOR SECURITY", credit: 2, grade: "nill" },
-                { title: "OS AND DBMS LAB", credit: 2, grade: "nill" }
-            ]
-        },
-
-        // Semester 5
-        {
-            isPending: true,
-            subs: [
-                { title: "FORMAL LANGUAGES AND AUTOMATA THEORY", credit: 4, grade: "nill" },
-                { title: "COMPUTER NETWORKS", credit: 4, grade: "nill" },
-                { title: "SYSTEMS & NETWORK SECURITY", credit: 4, grade: "nill" },
-                { title: "APPLIED CRYPTOGRAPHY", credit: 4, grade: "nill" },
-                { title: "MANAGEMENT OF SOFTWARE SYSTEMS", credit: 3, grade: "nill" },
-                { title: "DISASTER MANAGEMENT", credit: 0, grade: "nill" },
-                { title: "CRYPTOGRAPHY LAB", credit: 2, grade: "nill" },
-                { title: "SYSTEM & NETWORK SECURITY LAB", credit: 2, grade: "nill" }
-            ]
-        },
-
-        // Semester 6
-        {
-            isPending: true,
-            subs: [
-                { title: "COMPILER DESIGN", credit: 4, grade: "nill" },
-                { title: "CYBER FORENSICS", credit: 4, grade: "nill" },
-                { title: "ALGORITHM ANALYSIS AND DESIGN", credit: 4, grade: "nill" },
-                { title: "PROGRAM ELECTIVE I", credit: 3, grade: "nill" },
-                { title: "INDUSTRIAL ECONOMICS & FOREIGN TRADE", credit: 3, grade: "nill" },
-                { title: "COMPREHENSIVE COURSE WORK", credit: 1, grade: "nill" },
-                { title: "CYBER FORENSICS LAB", credit: 2, grade: "nill" },
-                { title: "MINIPROJECT", credit: 2, grade: "nill" }
-            ]
-        },
-
-        // Semester 7
-        {
-            isPending: true,
-            subs: [
-                { title: "ETHICAL HACKING", credit: 3, grade: "nill" },
-                { title: "PROGRAM ELECTIVE II", credit: 3, grade: "nill" },
-                { title: "OPEN ELECTIVE", credit: 3, grade: "nill" },
-                { title: "INDUSTRIAL SAFETY ENGINEERING", credit: 0, grade: "nill" },
-                { title: "ETHICAL HACKING LAB", credit: 2, grade: "nill" },
-                { title: "SEMINAR", credit: 2, grade: "nill" },
-                { title: "PROJECT PHASE I", credit: 2, grade: "nill" }
-            ]
-        },
-
-        // Semester 8
-        {
-            isPending: true,
-            subs: [
-                { title: "BIOMETRIC SECURITY", credit: 3, grade: "nill" },
-                { title: "PROGRAM ELECTIVE III", credit: 3, grade: "nill" },
-                { title: "PROGRAM ELECTIVE IV", credit: 3, grade: "nill" },
-                { title: "PROGRAM ELECTIVE V", credit: 3, grade: "nill" },
-                { title: "COMPREHENSIVE COURSE VIVA", credit: 1, grade: "nill" },
-                { title: "PROJECT PHASE II", credit: 4, grade: "nill" }
-            ]
-            
-        }
-    ];
+fetch('./departments/cy.json')
+  .then(response => response.json())
+  .then(data => {
+    sems = data;
+    printSubjects();
+  })
+  .catch(error => {
+    console.error('Error loading JSON:', error);
+  });
 
 const GradePoints = { S: 10, "A+": 9, A: 8.5, "B+": 8, B: 7.5, "C+": 7, C: 6.5, D: 6, P: 5.5, LP: 4, F: 0, nill: 0 };
 
@@ -136,8 +29,6 @@ document.getElementById("acceptData").addEventListener("change", (event) => {
 
     reader.readAsText(file);
 })
-
-printSubjects();
 
 function printSubjects() {
     let content = "";
