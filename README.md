@@ -1,7 +1,6 @@
 # KTU CGPA Calculator
 
-A simple CGPA calculator website built using plain **HTML, CSS, and JavaScript**, inspired by the clean and intuitive UI/UX style of Wikipedia or you can say that I'm lazy.
-
+A simple CGPA calculator website built using plain **HTML, CSS, and JavaScript**, inspired by the clean and intuitive UI/UX.
 ## About the Project
 
 This project is designed to help KTU students easily calculate their CGPA with a minimal and user-friendly interface. While there are many CGPA calculators available, this one focuses on simplicity and convenience.
@@ -35,10 +34,6 @@ This project is **almost complete** and is not expected to receive further updat
 * HTML
 * CSS
 * JavaScript
-
-## Design
-
-The design is intentionally kept **simple, clean, and easy to use**, focusing on usability rather than complexity. I firmly believe **Wikipedia** has already solved web design, so I've stopped pretending I can improve on it. If my projects look familiar, that's entirely **intentional**.
 
 ## Link
 

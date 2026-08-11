@@ -124,7 +124,6 @@ function calcCGPA() {
             totalCredits += sems[index].subs[i].credit;
         }
     }
-    console.log(earnedCredits, totalCredits);
     
     let cgpa = (totalCredits != 0) ? earnedCredits / totalCredits : 0;
 
@@ -142,4 +141,8 @@ function downloadData() {
     a.click();
 
     URL.revokeObjectURL(url);
+}
+
+function toggleTheme() {    
+    document.documentElement.classList.toggle("dark");
 }
