@@ -39,13 +39,19 @@ select {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
+#deparmentSelect {
+    padding: 10px;
+    margin-left: 0;
+    width: 390px;
+}
+
 button:hover {
     background-color: var(--button-hover);
 }
 
 .topButtons {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     align-items: flex-start;
 }
 

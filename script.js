@@ -1,16 +1,29 @@
-sems = [];
+let sems = [];
 
-fetch('./departments/cy.json')
-  .then(response => response.json())
-  .then(data => {
-    sems = data;
-    printSubjects();
-  })
-  .catch(error => {
-    console.error('Error loading JSON:', error);
-  });
+fetchDocument("cy.json");
 
 const GradePoints = { S: 10, "A+": 9, A: 8.5, "B+": 8, B: 7.5, "C+": 7, C: 6.5, D: 6, P: 5.5, LP: 4, F: 0, nill: 0 };
+
+function fetchDocument(fileName) {
+    fetch(`./departments/${fileName}`)
+    .then(response => response.json())
+    .then(data => {
+        sems = data;
+        printSubjects();
+    })
+    .catch(error => {
+        console.error('Error loading JSON:', error);
+    });
+}
+
+document.getElementById("deparmentSelect").addEventListener("change", (event) => {
+    let dep = document.getElementById("deparmentSelect").value;
+
+    switch(dep) {
+        case "cy": fetchDocument("cy.json"); break;
+        case "cse": fetchDocument("cse.json"); break;
+    }
+})
 
 document.getElementById("acceptData").addEventListener("change", (event) => {
     const file = event.target.files[0];
