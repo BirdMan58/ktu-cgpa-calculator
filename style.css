@@ -5,7 +5,8 @@
     --table-header: #88BDA4;
     --table-hover: #b5cea3;
     --button-bg: #B1D3B9;
-    --button-hover: #88BDA4;    
+    --button-hover: #88BDA4;  
+    --link-hover: #00723d;  
 }
 
 .dark {
@@ -16,6 +17,7 @@
     --table-hover: #35484e;
     --button-bg: #618764;
     --button-hover: #2B5748;    
+    --link-hover: #86c68b;  
 }
 
 body {
@@ -51,7 +53,7 @@ button:hover {
     background-color: var(--button-hover);
 }
 
-.topButtons {
+#topButtons {
     display: flex;
     margin-top: 10px;
     align-items: flex-start;
@@ -100,6 +102,24 @@ button:hover {
     height: 0;
 }
 
+#menuToggle {
+    display: none;
+    padding: 10px;
+    font-size: small;
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    background-color: var(--bg-bg);
+    color: var(--fg);
+    font-weight: bold;
+    margin-right: 10px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#menuToggle:hover {
+    color: var(--link-hover);
+}
 table {
     border-collapse: collapse;
     padding: 10px;
@@ -163,6 +183,10 @@ a {
     color: var(--fg);
 }
 
+a:hover {
+    color: var(--link-hover);
+}
+
 @media screen and (max-width: 764px) {
     body {
         margin: 10px;
@@ -174,7 +198,10 @@ a {
         margin: 10px;
     }
 
-    .topButtons {
+    #menuToggle {
+        display: block;
+    }
+    #topButtons {
         display: flex;
         flex-direction: column;
         gap: 10px;

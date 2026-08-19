@@ -159,3 +159,15 @@ function downloadData() {
 function toggleTheme() {    
     document.documentElement.classList.toggle("dark");
 }
+
+function toggleMenu() {
+    let menuBar = document.getElementById("topButtons");
+
+    if(getComputedStyle(menuBar).display === "flex") {
+        menuBar.style.display = "none"; 
+        document.getElementById("menuToggle").innerText = "Show Menu";
+    } else {
+        menuBar.style.display = "flex"; 
+        document.getElementById("menuToggle").innerText = "Hide Menu";
+    }
+}
