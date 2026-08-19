@@ -9,7 +9,10 @@
 </head>
 <body>  
     <h1>KTU CGPA Calculator</h1>
-    <p>For the cyber people.</p>
+    <div class="menuIconContainer">
+        <p>For the cyber people.</p>
+        <button id="menuToggle" onclick="toggleMenu()">☰</button>
+    </div>
     <div id="topButtons">
         <select name="Department" id="deparmentSelect">
             <option value="nil" selected>Change Department</option>
@@ -21,7 +24,6 @@
         <button class="headerBtn" id="downloadBtn" onclick="downloadData()">Download JSON Data</button>
         <button class="headerBtn" id="themeBtn" onclick="toggleTheme()">Change Theme</button>
    </div>
-   <button id="menuToggle" onclick="toggleMenu()">Hide Menu</button>
     <h2 id="cgpah1">CGPA: 0.00</h2>
     <div id="tables"></div>
     <hr><br><br>

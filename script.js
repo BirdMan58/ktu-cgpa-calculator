@@ -165,9 +165,7 @@ function toggleMenu() {
 
     if(getComputedStyle(menuBar).display === "flex") {
         menuBar.style.display = "none"; 
-        document.getElementById("menuToggle").innerText = "Show Menu";
     } else {
         menuBar.style.display = "flex"; 
-        document.getElementById("menuToggle").innerText = "Hide Menu";
     }
 }

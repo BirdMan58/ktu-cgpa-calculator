@@ -59,6 +59,12 @@ button:hover {
     align-items: flex-start;
 }
 
+.menuIconContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .fileInputLabel {
     padding: 10px;
     font-size: small;
@@ -104,22 +110,16 @@ button:hover {
 
 #menuToggle {
     display: none;
-    padding: 10px;
-    font-size: small;
-    width: 100%;
+    padding: 5px 10px;
     border: 0;
     border-radius: 5px;
-    background-color: var(--bg-bg);
+    margin-right: 0;
+    font-size: large;
+    background-color: var(--button-bg);
     color: var(--fg);
-    font-weight: bold;
-    margin-right: 10px;
-    margin-top: 10px;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-#menuToggle:hover {
-    color: var(--link-hover);
-}
 table {
     border-collapse: collapse;
     padding: 10px;
