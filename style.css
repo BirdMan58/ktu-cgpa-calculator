@@ -42,7 +42,9 @@ select {
 #deparmentSelect {
     padding: 10px;
     margin-left: 0;
-    width: 390px;
+    margin-top: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 button:hover {
@@ -63,6 +65,7 @@ button:hover {
     margin-right: 10px;
     font-weight: bold;
     transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center;
 }
 
 .fileInputLabel:hover {
@@ -163,5 +166,29 @@ a {
 @media screen and (max-width: 764px) {
     body {
         margin: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .topButtons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .headerBtn {
+        width: 100%;
+    }
+
+    #deparmentSelect {
+        width: 100%;
+    }
+
+    .fileInputLabel {
+        width: calc(100% - 20px);
     }
 }
