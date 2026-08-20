@@ -47,6 +47,7 @@ select {
     margin-top: 0;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    width: 150px;
 }
 
 button:hover {

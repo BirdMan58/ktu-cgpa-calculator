@@ -1,0 +1,102 @@
+[
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "LINEAR ALGEBRA AND CALCULUS", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS B / ENGINEERING CHEMISTRY", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING MECHANICS / ENGINEERING GRAPHICS", "credit": 3, "grade": "nill" },
+      { "title": "BASICS OF CIVIL & MECHANICAL ENGINEERING / BASICS OF ELECTRICAL & ELECTRONICS ENGINEERING", "credit": 4, "grade": "nill" },
+      { "title": "LIFE SKILLS", "credit": 0, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS LAB / ENGINEERING CHEMISTRY LAB", "credit": 1, "grade": "nill" },
+      { "title": "CIVIL & MECHANICAL WORKSHOP / ELECTRICAL & ELECTRONICS WORKSHOP", "credit": 1, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "VECTOR CALCULUS, DIFFERENTIAL EQUATIONS AND TRANSFORMS", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS B / ENGINEERING CHEMISTRY", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING MECHANICS / ENGINEERING GRAPHICS", "credit": 3, "grade": "nill" },
+      { "title": "BASICS OF CIVIL & MECHANICAL ENGINEERING / BASICS OF ELECTRICAL & ELECTRONICS ENGINEERING", "credit": 4, "grade": "nill" },
+      { "title": "PROFESSIONAL COMMUNICATION", "credit": 0, "grade": "nill" },
+      { "title": "PROGRAMMING IN C", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS LAB / ENGINEERING CHEMISTRY LAB", "credit": 1, "grade": "nill" },
+      { "title": "CIVIL & MECHANICAL WORKSHOP / ELECTRICAL & ELECTRONICS WORKSHOP", "credit": 1, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "PARTIAL DIFFERENTIAL EQUATION AND COMPLEX ANALYSIS", "credit": 4, "grade": "nill" },
+      { "title": "ELECTRICAL MACHINES & DRIVES", "credit": 4, "grade": "nill" },
+      { "title": "ANALOG AND DIGITAL ELECTRONICS", "credit": 4, "grade": "nill" },
+      { "title": "MECHANICS OF SOLIDS", "credit": 4, "grade": "nill" },
+      { "title": "DESIGN & ENGINEERING / PROFESSIONAL ETHICS", "credit": 2, "grade": "nill" },
+      { "title": "SUSTAINABLE ENGINEERING", "credit": 0, "grade": "nill" },
+      { "title": "ELECTRICAL TECHNOLOGY LAB", "credit": 2, "grade": "nill" },
+      { "title": "ANALOG & DIGITAL ELECTRONICS LAB", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "PROBABILITY, STATISTICS AND NUMERICAL METHODS", "credit": 4, "grade": "nill" },
+      { "title": "THERMODYNAMICS", "credit": 4, "grade": "nill" },
+      { "title": "SENSORS AND ACTUATORS", "credit": 4, "grade": "nill" },
+      { "title": "MICROPROCESSOR & EMBEDDED SYSTEMS", "credit": 4, "grade": "nill" },
+      { "title": "DESIGN & ENGINEERING / PROFESSIONAL ETHICS", "credit": 2, "grade": "nill" },
+      { "title": "CONSTITUTION OF INDIA", "credit": 0, "grade": "nill" },
+      { "title": "MECHANICAL ENGINEERING LAB", "credit": 2, "grade": "nill" },
+      { "title": "MICROPROCESSOR & EMBEDDED SYSTEM LAB", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "MECHANICS OF MACHINERY", "credit": 4, "grade": "nill" },
+      { "title": "LINEAR CONTROL SYSTEMS", "credit": 4, "grade": "nill" },
+      { "title": "PLC & DATA AQUISTION SYSTEMS", "credit": 4, "grade": "nill" },
+      { "title": "SOFT COMPUTING TECHNIQUES", "credit": 4, "grade": "nill" },
+      { "title": "INDUSTRIAL ECONOMICS & FOREIGN TRADE / MANAGEMENT FOR ENGINEERS", "credit": 3, "grade": "nill" },
+      { "title": "DISASTER MANAGEMENT", "credit": 0, "grade": "nill" },
+      { "title": "PLC & DATA AQUISTION LAB", "credit": 2, "grade": "nill" },
+      { "title": "INSRTUMENTATION LAB", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "ROBOTICS & AUTOMATION", "credit": 4, "grade": "nill" },
+      { "title": "DIGITAL IMAGE PROCESSING & MACHINE VISION", "credit": 4, "grade": "nill" },
+      { "title": "INDUSTRIAL HYDRAULICS & PNEUMATICS", "credit": 4, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE I", "credit": 3, "grade": "nill" },
+      { "title": "INDUSTRIAL ECONOMICS & FOREIGN TRADE / MANAGEMENT FOR ENGINEERS", "credit": 3, "grade": "nill" },
+      { "title": "COMREHENSIVE COURSE WORK", "credit": 1, "grade": "nill" },
+      { "title": "MECHATRONIC SYSTEMS LAB", "credit": 2, "grade": "nill" },
+      { "title": "MINIPROJECT", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "ADVANCED AUTOMATION SYSTEMS", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE II", "credit": 3, "grade": "nill" },
+      { "title": "OPEN ELECTIVE", "credit": 3, "grade": "nill" },
+      { "title": "INDUSTRIAL SAFETY ENGINEERING", "credit": 0, "grade": "nill" },
+      { "title": "CAD LAB", "credit": 2, "grade": "nill" },
+      { "title": "SEMINAR", "credit": 2, "grade": "nill" },
+      { "title": "PROJECT PHASE I", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "AUTOTRONICS", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE III", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE IV", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE V", "credit": 3, "grade": "nill" },
+      { "title": "COMPREHENSIVE COURSE VIVA", "credit": 1, "grade": "nill" },
+      { "title": "PROJECT PHASE II", "credit": 4, "grade": "nill" }
+    ]
+  }
+]

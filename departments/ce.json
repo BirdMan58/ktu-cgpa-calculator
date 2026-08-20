@@ -1,0 +1,102 @@
+[
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "LINEAR ALGEBRA AND CALCULUS", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS B / ENGINEERING CHEMISTRY", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING MECHANICS / ENGINEERING GRAPHICS", "credit": 3, "grade": "nill" },
+      { "title": "BASICS OF CIVIL & MECHANICAL ENGINEERING / BASICS OF ELECTRICAL & ELECTRONICS ENGINEERING", "credit": 4, "grade": "nill" },
+      { "title": "LIFE SKILLS", "credit": 0, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS LAB / ENGINEERING CHEMISTRY LAB", "credit": 1, "grade": "nill" },
+      { "title": "CIVIL & MECHANICAL WORKSHOP / ELECTRICAL & ELECTRONICS WORKSHOP", "credit": 1, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "VECTOR CALCULUS, DIFFERENTIAL EQUATIONS AND TRANSFORMS", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS B / ENGINEERING CHEMISTRY", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING MECHANICS / ENGINEERING GRAPHICS", "credit": 3, "grade": "nill" },
+      { "title": "BASICS OF CIVIL & MECHANICAL ENGINEERING / BASICS OF ELECTRICAL & ELECTRONICS ENGINEERING", "credit": 4, "grade": "nill" },
+      { "title": "PROFESSIONAL COMMUNICATION", "credit": 0, "grade": "nill" },
+      { "title": "PROGRAMMING IN C", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING PHYSICS LAB / ENGINEERING CHEMISTRY LAB", "credit": 1, "grade": "nill" },
+      { "title": "CIVIL & MECHANICAL WORKSHOP / ELECTRICAL & ELECTRONICS WORKSHOP", "credit": 1, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "PARTIAL DIFFERENTIAL EQUATION AND COMPLEX ANALYSIS", "credit": 4, "grade": "nill" },
+      { "title": "MECHANICS OF SOLIDS", "credit": 4, "grade": "nill" },
+      { "title": "FLUID MECHANICS & HYDRAULICS", "credit": 4, "grade": "nill" },
+      { "title": "SURVEYING & GEOMATICS", "credit": 4, "grade": "nill" },
+      { "title": "DESIGN & ENGINEERING / PROFESSIONAL ETHICS", "credit": 2, "grade": "nill" },
+      { "title": "SUSTAINABLE ENGINEERING", "credit": 0, "grade": "nill" },
+      { "title": "CIVIL ENGINEERING PLANNING & DRAFTING LAB", "credit": 2, "grade": "nill" },
+      { "title": "SURVEY LAB", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "PROBABILITY, STATISTICS AND NUMERICAL METHODS", "credit": 4, "grade": "nill" },
+      { "title": "ENGINEERING GEOLOGY", "credit": 4, "grade": "nill" },
+      { "title": "GEOTECHNICAL ENGINEERING - I", "credit": 4, "grade": "nill" },
+      { "title": "TRANSPORTATION ENGINEERING", "credit": 4, "grade": "nill" },
+      { "title": "DESIGN & ENGINEERING / PROFESSIONAL ETHICS", "credit": 2, "grade": "nill" },
+      { "title": "CONSTITUTION OF INDIA", "credit": 0, "grade": "nill" },
+      { "title": "MATERIAL TESTING LAB - I", "credit": 2, "grade": "nill" },
+      { "title": "FLUID MECHANICS LAB", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "STRUCTURAL ANALYSIS - I", "credit": 4, "grade": "nill" },
+      { "title": "DESIGN OF CONCRETE STRUCTURES", "credit": 4, "grade": "nill" },
+      { "title": "GEOTECHNICAL ENGINEERING - II", "credit": 4, "grade": "nill" },
+      { "title": "HYDROLOGY & WATER RESOURCES ENGINEERING", "credit": 4, "grade": "nill" },
+      { "title": "CONSTRUCTION TECHNOLOGY & MANAGEMENT", "credit": 3, "grade": "nill" },
+      { "title": "DISASTER MANAGEMENT", "credit": 0, "grade": "nill" },
+      { "title": "MATERIAL TESTING LAB - II", "credit": 2, "grade": "nill" },
+      { "title": "GEOTECHNICAL ENGINEERING LAB", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "STRUCTURAL ANALYSIS - II", "credit": 4, "grade": "nill" },
+      { "title": "ENVIRONMENTAL ENGINEERING", "credit": 4, "grade": "nill" },
+      { "title": "DESIGN OF HYDRAULIC STRUCTURES", "credit": 4, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE I", "credit": 3, "grade": "nill" },
+      { "title": "INDUSTRIAL ECONOMICS & FOREIGN TRADE", "credit": 3, "grade": "nill" },
+      { "title": "COMPREHENSIVE COURSE WORK", "credit": 1, "grade": "nill" },
+      { "title": "TRANSPORTATION ENGINEERING LAB", "credit": 2, "grade": "nill" },
+      { "title": "CIVIL ENGINEERING SOFTWARE LAB", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "DESIGN OF STEEL STRUCTURES", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE II", "credit": 3, "grade": "nill" },
+      { "title": "OPEN ELECTIVE", "credit": 3, "grade": "nill" },
+      { "title": "INDUSTRIAL SAFETY ENGINEERING", "credit": 0, "grade": "nill" },
+      { "title": "ENVIRONMENTAL ENGG LAB", "credit": 2, "grade": "nill" },
+      { "title": "SEMINAR", "credit": 2, "grade": "nill" },
+      { "title": "PROJECT PHASE I", "credit": 2, "grade": "nill" }
+    ]
+  },
+  {
+    "isPending": true,
+    "subs": [
+      { "title": "QUANTITY SURVEYING & VALUATION", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE III", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE IV", "credit": 3, "grade": "nill" },
+      { "title": "PROGRAM ELECTIVE V", "credit": 3, "grade": "nill" },
+      { "title": "COMPREHENSIVE VIVA VOCE", "credit": 1, "grade": "nill" },
+      { "title": "PROJECT PHASE II", "credit": 4, "grade": "nill" }
+    ]
+  }
+]

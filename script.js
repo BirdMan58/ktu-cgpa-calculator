@@ -22,6 +22,12 @@ document.getElementById("deparmentSelect").addEventListener("change", (event) =>
     switch(dep) {
         case "cy": fetchDocument("cy.json"); break;
         case "cse": fetchDocument("cse.json"); break;
+        case "ad": fetchDocument("ad.json"); break;
+        case "ce": fetchDocument("ce.json"); break;
+        case "ece": fetchDocument("ece.json"); break;
+        case "eee": fetchDocument("eee.json"); break;
+        case "me": fetchDocument("me.json"); break;
+        case "mr": fetchDocument("mr.json"); break;
     }
 })
 
