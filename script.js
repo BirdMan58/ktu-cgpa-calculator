@@ -42,7 +42,7 @@ document.getElementById("acceptData").addEventListener("change", (event) => {
             sems = JSON.parse(e.target.result);
             printSubjects();
         } catch {
-            alert("Invalid JSON file.")
+            document.getElementById("dialogBox").showModal();
         }
     };
 
@@ -174,4 +174,8 @@ function toggleMenu() {
     } else {
         menuBar.style.display = "flex"; 
     }
+}
+
+function closeDialog() {
+    document.getElementById("dialogBox").close();
 }
