@@ -6,5 +6,6 @@
     {"name": "Electronics and Communication Engineering", "id": "ece", "fileName": "ece.json"},
     {"name": "Electrical and Electronics Engineering", "id": "eee", "fileName": "eee.json"},
     {"name": "Mechanical Engineering", "id": "me", "fileName": "me.json"},
-    {"name": "Mechatronics Engineering", "id": "mr", "fileName": "mr.json"}
+    {"name": "Mechatronics Engineering", "id": "mr", "fileName": "mr.json"},
+    {"name": "Aeronautical Engineering", "id": "ao", "fileName": "ao.json"}
 ]
