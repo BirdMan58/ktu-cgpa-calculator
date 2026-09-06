@@ -1,8 +1,31 @@
 let sems = [];
+let depList = [];
 
+fetchList();
 fetchDocument("cy.json");
 
 const GradePoints = { S: 10, "A+": 9, A: 8.5, "B+": 8, B: 7.5, "C+": 7, C: 6.5, D: 6, P: 5.5, LP: 4, F: 0, nill: 0 };
+
+function fetchList() {
+    fetch(`./departments/depList.json`)
+    .then(response => response.json())
+    .then(data => {
+        depList = data;
+        updateDepList();
+    })
+    .catch(error => {
+        console.error('Error loading JSON:', error);
+    });
+}
+
+function updateDepList() {
+    let deparmentSelect = document.getElementById("deparmentSelect");
+    deparmentSelect.add(new Option("Change Department", "nil", true, true));
+
+    depList.forEach(dep => {
+        deparmentSelect.add(new Option(dep.name, dep.id));
+    });
+}
 
 function fetchDocument(fileName) {
     fetch(`./departments/${fileName}`)
@@ -17,17 +40,11 @@ function fetchDocument(fileName) {
 }
 
 document.getElementById("deparmentSelect").addEventListener("change", (event) => {
-    let dep = document.getElementById("deparmentSelect").value;
+    const selectedDep = document.getElementById("deparmentSelect").value;
+    const dep = depList.find(dep => dep.id === selectedDep);
 
-    switch(dep) {
-        case "cy": fetchDocument("cy.json"); break;
-        case "cse": fetchDocument("cse.json"); break;
-        case "ad": fetchDocument("ad.json"); break;
-        case "ce": fetchDocument("ce.json"); break;
-        case "ece": fetchDocument("ece.json"); break;
-        case "eee": fetchDocument("eee.json"); break;
-        case "me": fetchDocument("me.json"); break;
-        case "mr": fetchDocument("mr.json"); break;
+    if(dep) {
+        fetchDocument(dep.fileName);
     }
 })
 

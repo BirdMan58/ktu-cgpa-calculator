@@ -1,0 +1,10 @@
+[
+    {"name": "CSE(Cyber Security)", "id": "cy", "fileName": "cy.json"},
+    {"name": "Artificial Intelligence and Data Science", "id": "ad", "fileName": "ad.json"},
+    {"name": "Civil Engineering", "id": "ce", "fileName": "ce.json"},
+    {"name": "Computer Science Engineering", "id": "cse", "fileName": "cse.json"},
+    {"name": "Electronics and Communication Engineering", "id": "ece", "fileName": "ece.json"},
+    {"name": "Electrical and Electronics Engineering", "id": "eee", "fileName": "eee.json"},
+    {"name": "Mechanical Engineering", "id": "me", "fileName": "me.json"},
+    {"name": "Mechatronics Engineering", "id": "mr", "fileName": "mr.json"}
+]
