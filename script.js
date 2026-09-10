@@ -125,7 +125,7 @@ function calcSGPA(index) {
     let earnedCredits = 0;
 
     for(let i = 0; i < sems[index].subs.length; i++) {
-        userGrade = document.getElementById(`sub${index}${i}`).value;
+        let userGrade = document.getElementById(`sub${index}${i}`).value;
 
         if(userGrade != "nill") {
             sems[index].isPending = false;
@@ -153,7 +153,7 @@ function calcCGPA() {
         }
 
         for(let i = 0; i < sems[index].subs.length; i++) {
-            userGrade = document.getElementById(`sub${index}${i}`).value;
+            let userGrade = document.getElementById(`sub${index}${i}`).value;
 
             sems[index].subs[i].grade = userGrade;        
             earnedCredits += GradePoints[userGrade] * sems[index].subs[i].credit;
